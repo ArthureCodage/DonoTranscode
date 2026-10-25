@@ -4,7 +4,27 @@ Application Windows simple et complète autour de **ffmpeg** : convertir des vid
 un fichier ou des dossiers entiers, avec une file d'attente et tous les réglages accessibles.
 Interface sombre en Python + PySide6, encodage au choix sur le processeur ou la carte graphique NVIDIA (NVENC).
 
+[![Release](https://img.shields.io/github/v/release/ArthureCodage/DonoTranscode?label=version)](https://github.com/ArthureCodage/DonoTranscode/releases/latest)
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?logo=windows&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11%E2%80%933.13-3776AB?logo=python&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-NVENC-007808?logo=ffmpeg&logoColor=white)
+[![License](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
+
 ![Capture de DonoTranscode](docs/capture.png)
+
+<details>
+<summary><b>🇬🇧 English summary</b></summary>
+
+**DonoTranscode** is a simple but complete Windows GUI for **ffmpeg** (Python + PySide6, dark theme). *(The interface is in French for now.)*
+
+- **8 tabs:** video conversion (MP4 / MKV / WebM / MOV / AVI), images (crop, resize, colors), extract frames,
+  images → video (timelapse, slideshow), **GIF / animated WebP**, audio (MP3, Opus, FLAC… with EBU R128 loudness normalization),
+  **cut** with a built-in player (fast or frame-accurate), and **merge**.
+- Encoders: H.264 / H.265 (x264, x265 or **NVIDIA NVENC**), AV1 (SVT-AV1), VP9, or stream copy.
+- Drag & drop files or whole folders, real pause / resume queue, presets, live preview of the exact ffmpeg command.
+- **Install:** Python 3.11–3.13, clone or download the ZIP, double-click `install.bat` (downloads ffmpeg), then `Lancer DonoTranscode.bat`.
+
+</details>
 
 ## Fonctions
 
